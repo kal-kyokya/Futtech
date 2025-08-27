@@ -94,7 +94,7 @@ const Navbar = () => {
 			      to='/newVideo'
 			>
 			    <button className='navbarButton'>
-				Create
+				Upload
 			    </button>
 			</Link>
 			<Link className='link desktop-nav-item'
@@ -165,7 +165,7 @@ const Navbar = () => {
 			<a onClick={() => handleNavLinkClick('/about')}>About</a>
 		    </li>
 		    <li>
-			<a onClick={() => handleNavLinkClick('/newVideo')}>Create Video</a>
+			<a onClick={() => handleNavLinkClick('/newVideo')}>Upload Video</a>
 		    </li>
 		    <li>
 			<a onClick={() => handleNavLinkClick('/videoList')}>Manage Videos</a>
